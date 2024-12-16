@@ -1,0 +1,31 @@
+body{
+  background-color: #ECB2FF;
+  margin: 0;
+  width: 1517px;
+  height: 920px;
+  top: 31px;
+}
+
+header{
+    height: 141px;
+    width: auto;
+    position: relative;
+    background-color: aqua;
+}
+
+.Poppins{
+    height: 141px;
+    position: relative;
+}
+
+.fitted_image{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+}
+
+.title{
+    position: relative;
+}
