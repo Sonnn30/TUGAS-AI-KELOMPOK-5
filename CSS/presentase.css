@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(
+      180deg,
+      rgba(184, 130, 216, 1) 0%,
+      rgba(191, 160, 202, 1) 43.99999976158142%,
+      rgba(236, 178, 255, 1) 100%
+    );
+    position: relative;
+    height: 2022px;
+    margin: 0px;
+  }
+  
+  header{
+      height: 141px;
+      width: auto;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      background-color: #7CDCFF;
+  }
+  
+  .Poppins{
+      height: 141px;
+      display: flex;
+      position: relative;
+      justify-content: left;
+      align-items: center;
+  }
+  
+  .fitted_image{
+    position: relative;
+    display: flex;
+    width: 92px;
+    height: 92px;
+    padding: 20px;
+  }
+  
+  .title{
+    position: relative;
+  }
+
+  .middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .mid-box{
+    background-color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 80%;
+    margin: 100px auto;
+    box-sizing: border-box;
+  }
+
+  .mid-title{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .line{
+    border: 1px solid black;
+    width: 90%;
+  }
+
+  .center-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .main-circle {
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.functions {
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 30%;
+    align-items: center;
+}
+
+.function {
+    position: relative;
+    display: flex;
+    text-align: left;
+    margin: 40px 20px;
+}
+
+.small-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: green;
+    transition: background-color 0.3s ease;
+}
+
+.doneButton{
+    display: flex;
+    margin: 20px 30%;
+    position: relative;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.doneButton:hover {
+    background: #0056b3;
+}
